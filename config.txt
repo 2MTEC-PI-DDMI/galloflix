@@ -1,2 +1,34 @@
 git config --global user.name laislobato
 git config --global user.email 
+
+npx create-expo-app@latest GalloFlix --template blank
+
+// react Navigation
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npx expo install react-native-screen react-native-safe-area-context
+npx expo install react-native-gesture-handler
+
+// tailwind - nativeWind
+* npm install native-Wind
+npm install --save-dev tailwindcss@3.3.2
+* npx tailwindcssinit
+
+// carrousel
+* npm i react-native-reanimated-carrousel
+npx expo install react-native-reanimated
+
+// react native heroicons
+npm i react-native-heroicons
+
+// gradiente
+
+npm i expo-linear-gradient 
+
+// barra de progresso
+npm i react-native-progress
+
+// feycj api - axios
+npm i axios
+
+// criar uma conta no site tgemoviedb.org
