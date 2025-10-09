@@ -1,6 +1,8 @@
 git config --global user.name laislobato
 git config --global user.email 
 
+npx expo start --android --localhost
+
 npx create-expo-app@latest GalloFlix --template blank
 
 // react Navigation
@@ -10,12 +12,12 @@ npx expo install react-native-screen react-native-safe-area-context
 npx expo install react-native-gesture-handler
 
 // tailwind - nativeWind
-* npm install native-Wind
+npm install nativewind
 npm install --save-dev tailwindcss@3.3.2
-* npx tailwindcssinit
+npx tailwindcss init
 
 // carrousel
-* npm i react-native-reanimated-carrousel
+npm i react-native-reanimated-carousel
 npx expo install react-native-reanimated
 
 // react native heroicons
